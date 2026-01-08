@@ -4,7 +4,9 @@
       "Bash(ls:*)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\n절대음감 게임 사이트 초기 버전 및 GitHub Pages 경로 수정\n\n- 절대음감 테스트 게임 구현\n- 오디오 파일 경로를 GitHub Pages에서 작동하도록 상대 경로로 수정\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
