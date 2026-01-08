@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+  background: linear-gradient(180deg, #e0f7fa, #ffffff);
+  text-align: center;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #00796b;
+  font-size: 2em;
+}
+
+#playBtn {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.a-btn,.b-btn,.c-btn,.d-btn,.e-btn,.f-btn,.g-btn {
+  font-size: 1.1em;
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: 2px solid #00796b;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: 0.2s;
+}
+
+.a-btn:hover,.b-btn:hover,.c-btn:hover,.d-btn:hover,.e-btn:hover,.f-btn:hover,.g-btn:hover {
+  background-color: #b2dfdb;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#score {
+  margin-top: 10px;
+  color: #333;
+}
